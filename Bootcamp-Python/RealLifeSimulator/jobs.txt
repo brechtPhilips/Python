@@ -1,0 +1,5 @@
+Dishwasher,8,8
+Thief,12,2
+CEO',25,20
+Student,10,2
+President,40,30

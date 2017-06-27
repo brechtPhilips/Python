@@ -1,0 +1,5 @@
+Apple,5,2
+Hamburger,35,12
+Sushi,50,25
+Pizza,36,13
+Big Mac Menu,80,70E
