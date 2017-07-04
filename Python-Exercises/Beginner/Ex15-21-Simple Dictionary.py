@@ -23,3 +23,8 @@ print(dic_one)
 #Ex20-Calculate the sum of all the values
 d = {"a": 1, "b": 2, "c": 3}
 print(sum(d.values()))
+
+#Ex 21- Dictionary Filtering
+# Filter the dictionary by removing all items with a value of greater than 1.
+d = dict((key,value) for key,value in d.items() if value <= 1)
+print(d)
