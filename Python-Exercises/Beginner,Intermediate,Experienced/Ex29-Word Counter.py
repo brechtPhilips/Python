@@ -12,5 +12,5 @@ def CountWordsWithCommas(path):
         return len(string.split(" "))
 
 
-print(CountWords("words1.txt"))
-print((CountWordsWithCommas("words2.txt")))
+print(CountWords("Files/words1.txt"))
+print((CountWordsWithCommas("Files/words2.txt")))
