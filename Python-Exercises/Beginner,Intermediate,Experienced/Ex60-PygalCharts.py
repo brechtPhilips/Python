@@ -15,7 +15,7 @@ def CreatePieChart(data):
     pieChart.render_to_file('Files/pieChart.svg')
 
 def CreateBarChart(data):
-    barChart = pygal.HorizontalBar()
+    barChart = pygal.HorizontalBar(style=NeonStyle)
     barChart.titile = 'Population per Country Bar'
     for index,row in data.iterrows():
         barChart.add(row["Country"],int(row["Population"]))
